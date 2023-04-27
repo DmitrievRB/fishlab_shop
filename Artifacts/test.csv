@@ -1,0 +1,50 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+,,,,,,,,,,,,,,,,,,,,8,,Testing_footer,1,
+64,Проверка наличия контактной информации в футере,,Открыт сайт [https://fishlab.shop/](https://fishlab.shop/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Открыть главную страницу интернет-магазина
+2. Пролистать страницу до конца
+3. Просмотреть футер страницы
+","1. Страница успешно открывается
+2. Страница прокручивается до нижней части
+3. Футер содержит следующую контактную информацию: телефон, адрес, e-mail, часы работы, социальные сети и т.д.
+
+","1. 
+2. 
+3. 
+",,,8,,Testing_footer,,
+65,Проверка работоспособности телефона в футере,,Открыт сайт [https://fishlab.shop/](https://fishlab.shop/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Открыть главную страницу интернет-магазина
+2. Пролистать страницу до конца
+3. Нажать на номер телефона в футере
+
+","1. Страница успешно открывается
+2. Страница прокручивается до нижней части
+3. При нажатии на номер телефона открывается приложение для звонков с введенным номером
+
+","1. 
+2. 
+3. 
+",,,8,,Testing_footer,,
+66,Проверка работоспособности e-mail в футере,,Открыт сайт [https://fishlab.shop/](https://fishlab.shop/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Открыть главную страницу интернет-магазина
+2. Пролистать страницу до конца
+3. Нажать на адрес e-mail в футере
+
+","1. Страница успешно открывается
+2. Страница прокручивается до нижней части
+3. При нажатии на адрес e-mail открывается приложение для отправки писем с введенным адресом
+
+","1. 
+2. 
+3. 
+",,,8,,Testing_footer,,
+67,Проверка работоспособности социальных сетей в футере,,Открыт сайт [https://fishlab.shop/](https://fishlab.shop/),,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Открыть главную страницу интернет-магазина
+2. Пролистать страницу до конца
+3. Нажать на иконку одной из социальных сетей в футере (например, Facebook)
+
+
+","1. Страница успешно открывается
+2. Страница прокручивается до нижней части
+3. При нажатии на иконку социальной сети открывается страница интернет-магазина в этой социальной сети (например, Facebook)
+
+","1. 
+2. 
+3. 
+",,,8,,Testing_footer,,
